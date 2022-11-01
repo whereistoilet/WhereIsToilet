@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/a73e2dadaef887054beed6888c101e9c/transformed/firebase-database-20.1.0/res" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/760250e7ce15c4801c2488842f57e744/transformed/firebase-database-20.1.0/res" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/760250e7ce15c4801c2488842f57e744/transformed/firebase-database-20.1.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/760250e7ce15c4801c2488842f57e744/transformed/firebase-database-20.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/fb44f6a289d572453787a40a1c0b43b2/transformed/jetified-firebase-database-20.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/fb44f6a289d572453787a40a1c0b43b2/transformed/jetified-firebase-database-20.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/fb44f6a289d572453787a40a1c0b43b2/transformed/jetified-firebase-database-20.1.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-database/20.1.0/813195391e1faddfc9130908f17c76dd11a1da8b/firebase-database-20.1.0-javadoc.jar!/" />

@@ -57,6 +57,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.google.firebase:firebase-storage-ktx'
 
+    // Map
+    implementation 'com.naver.maps:map-sdk:3.15.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'

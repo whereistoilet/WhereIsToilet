@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/d5afd530e35f33db56b190e07cd0d9b5/transformed/play-services-safetynet-17.0.0/res" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/1092b24f7cd7283e048e352fae37f461/transformed/play-services-safetynet-17.0.0/res" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/1092b24f7cd7283e048e352fae37f461/transformed/play-services-safetynet-17.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/1092b24f7cd7283e048e352fae37f461/transformed/play-services-safetynet-17.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/e671bd022fdfec1245ab9ced8514a71b/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/e671bd022fdfec1245ab9ced8514a71b/transformed/jetified-play-services-safetynet-17.0.0/res" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/e671bd022fdfec1245ab9ced8514a71b/transformed/jetified-play-services-safetynet-17.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

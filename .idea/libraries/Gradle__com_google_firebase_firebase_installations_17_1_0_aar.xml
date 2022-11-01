@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-installations:17.1.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/013108277793829289020de6694a77b2/transformed/firebase-installations-17.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/013108277793829289020de6694a77b2/transformed/firebase-installations-17.1.0/res" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/013108277793829289020de6694a77b2/transformed/firebase-installations-17.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/5d496b2d56eaec42effe7cea4ebd7662/transformed/jetified-firebase-installations-17.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/5d496b2d56eaec42effe7cea4ebd7662/transformed/jetified-firebase-installations-17.1.0/res" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/5d496b2d56eaec42effe7cea4ebd7662/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-installations/17.1.0/8b3226eeb5c7fe2721c91df37c11678e3906dc75/firebase-installations-17.1.0-javadoc.jar!/" />

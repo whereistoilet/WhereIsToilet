@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.getkeepsafe.relinker:relinker:1.4.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/39fa647fd637e620879674ad7821e40b/transformed/relinker-1.4.3/res" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/91047b6dca3005b1303739c1a6bc96e9/transformed/jetified-relinker-1.4.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/91047b6dca3005b1303739c1a6bc96e9/transformed/jetified-relinker-1.4.3/res" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/91047b6dca3005b1303739c1a6bc96e9/transformed/jetified-relinker-1.4.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.getkeepsafe.relinker/relinker/1.4.3/b445eff96b37af2f0749df14771465baf1914ccc/relinker-1.4.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.getkeepsafe.relinker/relinker/1.4.3/5254aa3459893338a330ff64511428e8d0f048c0/relinker-1.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

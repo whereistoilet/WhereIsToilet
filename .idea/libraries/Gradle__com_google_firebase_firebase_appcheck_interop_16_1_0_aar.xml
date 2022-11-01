@@ -2,9 +2,10 @@
   <library name="Gradle: com.google.firebase:firebase-appcheck-interop:16.1.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/d38952a92582697587234a00d27543d5/transformed/firebase-appcheck-interop-16.1.0/res" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/b97ce1c04aa809f362c8625c86578ab7/transformed/firebase-appcheck-interop-16.1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/b97ce1c04aa809f362c8625c86578ab7/transformed/firebase-appcheck-interop-16.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/b97ce1c04aa809f362c8625c86578ab7/transformed/firebase-appcheck-interop-16.1.0/res" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/eb17c9d0839515980bb5aa50d4f4ac4b/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/eb17c9d0839515980bb5aa50d4f4ac4b/transformed/jetified-firebase-appcheck-interop-16.1.0/res" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/eb17c9d0839515980bb5aa50d4f4ac4b/transformed/jetified-firebase-appcheck-interop-16.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-appcheck-interop/16.1.0/27bb4881dc6d25e53f69cc070de71912c0800b7c/firebase-appcheck-interop-16.1.0-javadoc.jar!/" />

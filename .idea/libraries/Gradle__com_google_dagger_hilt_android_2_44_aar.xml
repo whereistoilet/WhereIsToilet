@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/a5b8a3427c4067fa03110e66c15e433a/transformed/hilt-android-2.44/res" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/89a212a9c1dc0c18c21f7f910259bc32/transformed/hilt-android-2.44/res" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/89a212a9c1dc0c18c21f7f910259bc32/transformed/hilt-android-2.44/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/89a212a9c1dc0c18c21f7f910259bc32/transformed/hilt-android-2.44/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/90523dbf9938a00acd05c97be3286eda/transformed/jetified-hilt-android-2.44/res" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/90523dbf9938a00acd05c97be3286eda/transformed/jetified-hilt-android-2.44/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/90523dbf9938a00acd05c97be3286eda/transformed/jetified-hilt-android-2.44/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.dagger/hilt-android/2.44/fbbdee080ba8ac1aec7b03c98c3c32fcb0fafafb/hilt-android-2.44-javadoc.jar!/" />

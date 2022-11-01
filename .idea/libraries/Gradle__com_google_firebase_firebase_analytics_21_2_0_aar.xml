@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-analytics:21.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/cd8c401711ba5e8c73d923669c9130a4/transformed/firebase-analytics-21.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/cd8c401711ba5e8c73d923669c9130a4/transformed/firebase-analytics-21.2.0/res" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/cd8c401711ba5e8c73d923669c9130a4/transformed/firebase-analytics-21.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/527c022daa9cc1c139512f3429720827/transformed/jetified-firebase-analytics-21.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/527c022daa9cc1c139512f3429720827/transformed/jetified-firebase-analytics-21.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/527c022daa9cc1c139512f3429720827/transformed/jetified-firebase-analytics-21.2.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-analytics/21.2.0/e30555d01f4b419de1eed6ceed27b98aedecf946/firebase-analytics-21.2.0-javadoc.jar!/" />

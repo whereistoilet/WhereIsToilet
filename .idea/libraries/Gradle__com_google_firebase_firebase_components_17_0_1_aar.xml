@@ -2,9 +2,10 @@
   <library name="Gradle: com.google.firebase:firebase-components:17.0.1@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/552cc9aac9debb2988a27a0d1ab4400d/transformed/firebase-components-17.0.1/res" />
-      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/45cc8fe5a962f21f3b0f1be8abe3bce4/transformed/firebase-components-17.0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/45cc8fe5a962f21f3b0f1be8abe3bce4/transformed/firebase-components-17.0.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/45cc8fe5a962f21f3b0f1be8abe3bce4/transformed/firebase-components-17.0.1/res" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/c548045982d539f3c8be49245f203ca4/transformed/jetified-firebase-components-17.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/c548045982d539f3c8be49245f203ca4/transformed/jetified-firebase-components-17.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/c548045982d539f3c8be49245f203ca4/transformed/jetified-firebase-components-17.0.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-components/17.0.1/25dd870fd6dea1a3a5df01ce1a02127638a44751/firebase-components-17.0.1-javadoc.jar!/" />

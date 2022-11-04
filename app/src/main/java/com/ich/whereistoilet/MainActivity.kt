@@ -5,9 +5,18 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.Transformations.map
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.android.material.navigation.NavigationBarView
 import com.ich.whereistoilet.R
+import com.ich.whereistoilet.presentation.MyPageFragment
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.overlay.Marker
@@ -24,14 +33,23 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback{
 
     private lateinit var naverMap: NaverMap
     private lateinit var locationSource: FusedLocationSource
-    private val mapView: MapView by lazy{ findViewById(R.id.mapView) }
+    private lateinit var bottomNavigation: BottomNavigationView
+    private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        mapView.onCreate(savedInstanceState)
 
-        mapView.getMapAsync(this)
+        val mapFragment: MapFragment = MapFragment.newInstance()
+        mapFragment.getMapAsync(this)
+
+        val navHostController = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+
+        navController = navHostController.navController
+
+        bottomNavigation = findViewById(R.id.bottom_navigation)
+        bottomNavigation.setupWithNavController(navController)
     }
 
     override fun onMapReady(map: NaverMap) {
@@ -62,41 +80,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback{
             }
             return
         }
-    }
-
-    override fun onStart() {
-        super.onStart()
-        mapView.onStart()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        mapView.onResume()
-    }
-
-    override fun onPause() {
-        super.onPause()
-        mapView.onPause()
-    }
-
-    override fun onSaveInstanceState(outState: Bundle, outPersistentState: PersistableBundle) {
-        super.onSaveInstanceState(outState, outPersistentState)
-        mapView.onSaveInstanceState(outState)
-    }
-
-    override fun onStop() {
-        super.onStop()
-        mapView.onStop()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        mapView.onDestroy()
-    }
-
-    override fun onLowMemory() {
-        super.onLowMemory()
-        mapView.onLowMemory()
     }
 
     companion object{

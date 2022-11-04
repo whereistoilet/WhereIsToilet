@@ -14,9 +14,7 @@
     <string name="manage_review">리뷰 관리</string>
     <string name="num_of_review">리뷰 수</string>
     <string name="recent_review">최근 리뷰</string>
-    <string name="home_korean">홈</string>
-    <string name="review_korean">리뷰</string>
-    <string name="my_page_korean">마이페이지</string>
+    <string name="home">홈</string>
     <string-array name="sort_options">
         <item>추천순</item>
         <item>최신순</item>

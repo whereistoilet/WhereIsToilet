@@ -4,17 +4,17 @@
         android:id="@+id/bot_nav_home"
         android:enabled="true"
         android:icon="@drawable/icon_home"
-        android:title="@string/home_korean" />
+        android:title="@string/home" />
 
     <item
         android:id="@+id/bot_nav_review"
         android:enabled="true"
         android:icon="@drawable/icon_review"
-        android:title="@string/review_korean" />
+        android:title="@string/review" />
 
     <item
         android:id="@+id/bot_nav_my_page"
         android:enabled="true"
         android:icon="@drawable/icon_my_page"
-        android:title="@string/my_page_korean" />
+        android:title="@string/mypage" />
 </menu>

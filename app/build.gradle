@@ -4,6 +4,9 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
     id 'com.google.gms.google-services'
+
+    // Safe Args
+    id 'androidx.navigation.safeargs.kotlin'
 }
 
 android {
@@ -60,6 +63,10 @@ dependencies {
     // Map
     implementation 'com.naver.maps:map-sdk:3.15.0'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    // Androidx Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
+    implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'

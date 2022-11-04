@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WhereIsToilet</string>
+    <string name="client_id">arsvztbvlx</string>
+    <string name="review">리뷰</string>
+    <string name="create_review">리뷰 작성하기</string>
+    <string name="review_detail">상세 정보</string>
+    <string name="divide_gender">남녀 구분</string>
+    <string name="clean_rate">청결도</string>
+    <string name="stars">만족도</string>
+    <string name="success_create">작성 완료</string>
+    <string name="mypage">마이페이지</string>
+    <string name="logout">로그아웃</string>
+    <string name="sign_up">회원가입</string>
+    <string name="manage_review">리뷰 관리</string>
+    <string name="num_of_review">리뷰 수</string>
+    <string name="recent_review">최근 리뷰</string>
+    <string-array name="sort_options">
+        <item>추천순</item>
+        <item>최신순</item>
+    </string-array>
+</resources>

@@ -1,4 +1,4 @@
-package com.ich.whereistoilet.presentation
+package com.ich.whereistoilet.presentation.mypage
 
 import android.graphics.Color
 import android.os.Bundle

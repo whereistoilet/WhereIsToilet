@@ -1,4 +1,4 @@
-package com.ich.whereistoilet.presentation
+package com.ich.whereistoilet.presentation.review
 
 import android.os.Bundle
 import android.view.View

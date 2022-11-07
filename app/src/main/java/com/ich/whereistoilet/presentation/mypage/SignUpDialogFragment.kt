@@ -1,4 +1,4 @@
-package com.ich.whereistoilet.presentation
+package com.ich.whereistoilet.presentation.mypage
 
 import android.app.Dialog
 import android.os.Bundle
@@ -13,7 +13,7 @@ import com.google.firebase.ktx.Firebase
 import com.ich.whereistoilet.R
 
 
-class LoginDialogFragment(private val loginSuccess: () -> Unit): DialogFragment() {
+class SignUpDialogFragment: DialogFragment() {
     private val auth by lazy { Firebase.auth }
 
     private lateinit var emailEditText: TextInputEditText
@@ -22,7 +22,7 @@ class LoginDialogFragment(private val loginSuccess: () -> Unit): DialogFragment(
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val builder = AlertDialog.Builder(requireContext())
 
-        val view = requireActivity().layoutInflater.inflate(R.layout.layout_login, null)
+        val view = requireActivity().layoutInflater.inflate(R.layout.layout_signup, null)
         initialize(view)
 
         builder.setView(view)
@@ -33,18 +33,18 @@ class LoginDialogFragment(private val loginSuccess: () -> Unit): DialogFragment(
     }
 
     private fun initialize(view: View){
-        emailEditText = view.findViewById(R.id.loginEmailEditText)
-        passwordEditText = view.findViewById(R.id.loginPasswordEditText)
+        emailEditText = view.findViewById(R.id.signupEmailEditText)
+        passwordEditText = view.findViewById(R.id.signupPasswordEditText)
 
-        view.findViewById<Button>(R.id.loginButton).setOnClickListener {
-            auth.signInWithEmailAndPassword(emailEditText.text.toString(), passwordEditText.text.toString())
+        view.findViewById<Button>(R.id.signupButton).setOnClickListener {
+            auth.createUserWithEmailAndPassword(emailEditText.text.toString(), passwordEditText.text.toString())
                 .addOnCompleteListener {
                     if(it.isSuccessful){
-                        Toast.makeText(requireContext(), "로그인에 성공하셨습니다", Toast.LENGTH_SHORT).show()
-                        loginSuccess()
+                        Toast.makeText(requireContext(), "회원가입에 성공하셨습니다", Toast.LENGTH_SHORT).show()
+                        auth.signOut()
                         dismiss()
                     }else{
-                        Toast.makeText(requireContext(), "로그인에 실패하셨습니다", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(requireContext(), "이미 존재하거나 연결할 수 없습니다", Toast.LENGTH_SHORT).show()
                     }
                 }
         }

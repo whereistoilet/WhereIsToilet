@@ -39,17 +39,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback{
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val mapFragment: MapFragment = MapFragment.newInstance()
-        mapFragment.getMapAsync(this)
-
-        val navHostController = supportFragmentManager
-            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-
-        navController = navHostController.navController
-
-        bottomNavigation = findViewById(R.id.bottom_navigation)
-        bottomNavigation.setupWithNavController(navController)
     }
 
     override fun onMapReady(map: NaverMap) {

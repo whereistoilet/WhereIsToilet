@@ -14,6 +14,11 @@
     <string name="manage_review">리뷰 관리</string>
     <string name="num_of_review">리뷰 수</string>
     <string name="recent_review">최근 리뷰</string>
+    <string name="login">로그인</string>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="mention_not_login"><![CDATA[로그인 되어있지 않습니다 >]]></string>
+    <string name="signup">회원가입</string>
     <string-array name="sort_options">
         <item>추천순</item>
         <item>최신순</item>

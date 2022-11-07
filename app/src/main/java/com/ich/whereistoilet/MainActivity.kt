@@ -5,9 +5,14 @@ import android.os.Bundle
 import android.os.PersistableBundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isGone
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager2.widget.ViewPager2
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import com.ich.whereistoilet.R
+import com.ich.whereistoilet.presentation.MyPageFragment
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.overlay.Marker
@@ -31,6 +36,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback{
         setContentView(R.layout.activity_main)
         mapView.onCreate(savedInstanceState)
 
+        supportFragmentManager.beginTransaction().replace(R.id.container, MyPageFragment()).commit()
+        mapView.isGone = true
         mapView.getMapAsync(this)
     }
 

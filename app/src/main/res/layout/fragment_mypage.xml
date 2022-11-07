@@ -33,9 +33,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="로그인 되어있지 않습니다 >"
+        android:text="@string/mention_not_login"
+        android:background="?attr/selectableItemBackground"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mypageFirstDivider" />
 
     <View
@@ -66,6 +69,7 @@
         android:text="@string/manage_review"
         android:textColor="@color/black"
         android:textSize="18sp"
+        android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mypageLogoutSignUpButton" />
 
@@ -74,6 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:visibility="gone"
         app:cardBackgroundColor="#dddddd"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"

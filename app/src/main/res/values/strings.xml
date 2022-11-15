@@ -20,6 +20,9 @@
     <string name="mention_not_login"><![CDATA[로그인 되어있지 않습니다 >]]></string>
     <string name="signup">회원가입</string>
     <string name="home">홈</string>
+    <string name="current_toilet">선택 화장실</string>
+    <string name="ment_write_review">후기를 작성해주세요</string>
+    <string name="ment_no_review">리뷰가 존재하지 않습니다</string>
     <string-array name="sort_options">
         <item>추천순</item>
         <item>최신순</item>

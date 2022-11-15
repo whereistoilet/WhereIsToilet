@@ -1,34 +1,18 @@
 package com.ich.whereistoilet
 
-import android.graphics.Color
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Transformations.map
 import androidx.navigation.NavController
-import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.android.material.navigation.NavigationBarView
-import com.ich.whereistoilet.R
-import com.ich.whereistoilet.presentation.MyPageFragment
+import com.ich.whereistoilet.presentation.review.ReviewFragment
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
-import com.naver.maps.map.overlay.Marker
-import com.naver.maps.map.overlay.Overlay
 import com.naver.maps.map.util.FusedLocationSource
-import com.naver.maps.map.util.MarkerIcons
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), OnMapReadyCallback{
 
     private lateinit var naverMap: NaverMap
@@ -61,7 +45,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback{
         naverMap.moveCamera(cameraUpdate)
 
         val uiSetting = naverMap.uiSettings
-        uiSetting.isLocationButtonEnabled = false
+        uiSetting.isLocationButtonEnabled = true
 
         locationSource = FusedLocationSource(this@MainActivity, LOCATION_PERMISSION_REQUEST_CODE)
         naverMap.locationSource = locationSource

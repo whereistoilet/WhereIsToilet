@@ -10,14 +10,14 @@
         android:name="com.naver.maps.map.MapFragment" />
     <fragment
         android:id="@+id/reviewFragment"
-        android:name="com.ich.whereistoilet.presentation.ReviewFragment"
+        android:name="com.ich.whereistoilet.presentation.review.ReviewFragment"
         android:label="ReviewFragment" />
     <fragment
         android:id="@+id/myPageFragment"
-        android:name="com.ich.whereistoilet.presentation.MyPageFragment"
+        android:name="com.ich.whereistoilet.presentation.mypage.MyPageFragment"
         android:label="MyPageFragment" />
     <fragment
         android:id="@+id/createReviewFragment"
-        android:name="com.ich.whereistoilet.presentation.CreateReviewFragment"
+        android:name="com.ich.whereistoilet.presentation.review.CreateReviewFragment"
         android:label="CreateReviewFragment" />
 </navigation>

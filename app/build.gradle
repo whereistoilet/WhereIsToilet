@@ -43,6 +43,7 @@ android {
 dependencies {
     // Dagger Hilt
     implementation "com.google.dagger:hilt-android:2.44"
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
     kapt "com.google.dagger:hilt-compiler:2.44"
 
     // Retrofit

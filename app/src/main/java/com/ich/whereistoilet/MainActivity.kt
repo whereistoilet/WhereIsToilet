@@ -10,7 +10,9 @@ import com.ich.whereistoilet.presentation.review.ReviewFragment
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.*
 import com.naver.maps.map.util.FusedLocationSource
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity(), OnMapReadyCallback{
 
     private lateinit var naverMap: NaverMap
@@ -43,7 +45,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback{
         naverMap.moveCamera(cameraUpdate)
 
         val uiSetting = naverMap.uiSettings
-        uiSetting.isLocationButtonEnabled = false
+        uiSetting.isLocationButtonEnabled = true
 
         locationSource = FusedLocationSource(this@MainActivity, LOCATION_PERMISSION_REQUEST_CODE)
         naverMap.locationSource = locationSource

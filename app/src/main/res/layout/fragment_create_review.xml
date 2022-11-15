@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/rounded"
     android:orientation="vertical">
 
     <TextView
@@ -18,21 +19,27 @@
         tools:text="땡땡 화장실" />
 
     <TextView
-        android:id="@+id/locationTextView"
+        android:id="@+id/toiletTypeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:textSize="18sp"
-        tools:text="위치: 성북구 감초동" />
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/ment_write_review"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/reviewEditTextLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp">
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/reviewEditText"
@@ -43,7 +50,6 @@
             android:focusable="true"
             android:lines="5"
             android:gravity="top|left"
-            android:hint="후기를 작성해주세요"
             android:inputType="textMultiLine"
             android:paddingTop="0dp"
             android:scrollbars="vertical"
@@ -63,29 +69,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="@string/divide_gender"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-
-        <TextView
-            android:id="@+id/divideGenderTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:textColor="@color/black"
-            android:textSize="18sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
@@ -98,7 +81,7 @@
             android:textSize="18sp" />
 
         <RatingBar
-            android:id="@+id/cleanRateBar"
+            android:id="@+id/cleanRatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -135,7 +118,7 @@
         android:backgroundTint="@color/white"
         android:text="@string/success_create"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:drawableRight="@drawable/ic_baseline_check_24"
         android:layout_gravity="right"/>

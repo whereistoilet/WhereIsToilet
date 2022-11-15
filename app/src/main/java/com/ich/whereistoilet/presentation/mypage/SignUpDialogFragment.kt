@@ -11,8 +11,9 @@ import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.ich.whereistoilet.R
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class SignUpDialogFragment: DialogFragment() {
     private val auth by lazy { Firebase.auth }
 

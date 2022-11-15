@@ -9,7 +9,9 @@ import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.ich.whereistoilet.R
 import com.ich.whereistoilet.databinding.FragmentMypageBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MyPageFragment: Fragment(R.layout.fragment_mypage) {
     private val auth by lazy { Firebase.auth }
     private lateinit var binding: FragmentMypageBinding

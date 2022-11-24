@@ -74,70 +74,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mypageLogoutSignUpButton" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/manageReviewCardView"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myPageReviewRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:visibility="gone"
-        app:cardBackgroundColor="#dddddd"
-        app:cardCornerRadius="30dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/manageReviewTextView">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="@string/num_of_review"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/countReviewTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:text="5"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="@string/recent_review"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/recentReviewTextView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:text="2022-11-05"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
+        app:layout_constraintTop_toBottomOf="@id/manageReviewTextView"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
